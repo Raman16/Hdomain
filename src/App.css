@@ -1,0 +1,26 @@
+.simple-fade-enter {
+  opacity: 0.01;
+}
+
+.simple-fade-enter.simple-fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.simple-fade-leave {
+  opacity: 1;
+}
+
+.simple-fade-leave.simple-fade-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.simple-fade-appear {
+  opacity: 0.01;
+}
+
+.simple-fade-appear.simple-fade-appear-active {
+  opacity: 1;
+  transition: opacity .2s ease-in;
+}
